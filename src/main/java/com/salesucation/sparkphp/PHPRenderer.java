@@ -36,8 +36,7 @@ public class PHPRenderer {
 		try {
 			ByteArrayOutputStream os = new ByteArrayOutputStream();
 			ClassLoader classLoader = PHPRenderer.class.getClassLoader();
-			File file = new File(classLoader.getResource("viewWrapper.php").getFile());
-			Reader oReader = new FileReader(file);
+			Reader oReader = new InputStreamReader(classLoader.getResourceAsStream("viewWrapper.php"));
 			QuercusProgram program = QuercusParser.parse(_quercus, null, oReader);
 
 			OutputStreamStream s = new OutputStreamStream(os);
