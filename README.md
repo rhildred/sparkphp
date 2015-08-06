@@ -28,4 +28,4 @@ import com.salesucation.sparkphp.*;
 
 ```
 
-The test directory is relative to the folder containing the pom.xml file.
+The `setViewDir` folder is relative to the folder containing the pom.xml file.
