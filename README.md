@@ -17,7 +17,7 @@ Dependency:
 Example test for usage:
 
 ```
-import com.salesucation.sparkphp.*
+import com.salesucation.sparkphp.*;
 
 ....
 
