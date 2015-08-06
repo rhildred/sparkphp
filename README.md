@@ -18,10 +18,10 @@ Example test for usage:
 
 ```
 
-    	PHPRenderer php = new PHPRenderer();
-    	php.setViewDir("testviews/");
-    	String rc = php.render("testmodel.phtml", "{\"name\":\"Rich\"}");
-        assertTrue( rc.equals("Rich was here!") );
+PHPRenderer php = new PHPRenderer();
+php.setViewDir("testviews/");
+String rc = php.render("testmodel.phtml", "{\"name\":\"Rich\"}");
+assertTrue( rc.equals("Rich was here!") );
 
 ```
 
