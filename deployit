@@ -1,0 +1,1 @@
+mvn deploy:deploy-file -Dfile=target/sparkphp-1.0-SNAPSHOT.jar -DgroupId=com.salesucation -DartifactId=sparkphp -Dversion=1.0 -Dpackaging=jar -Durl=https://artifactory-hildred.rhcloud.com/artifactory/libs-release-local -DrepositoryId=artifactory
