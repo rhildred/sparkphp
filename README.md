@@ -17,11 +17,14 @@ Dependency:
 Example test for usage:
 
 ```
+import com.salesucation.sparkphp.*
 
-PHPRenderer php = new PHPRenderer();
-php.setViewDir("testviews/");
-String rc = php.render("testmodel.phtml", "{\"name\":\"Rich\"}");
-assertTrue( rc.equals("Rich was here!") );
+....
+
+	PHPRenderer php = new PHPRenderer();
+	php.setViewDir("testviews/");
+	String rc = php.render("testmodel.phtml", "{\"name\":\"Rich\"}");
+	assertTrue( rc.equals("Rich was here!") );
 
 ```
 
